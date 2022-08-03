@@ -1,0 +1,79 @@
+/* General Styling */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url("rainbow.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    font-family: sans-serif;
+    background-repeat: no-repeat;
+}
+
+/* Head styling */
+.head{
+    text-align: center;
+    color: #fff;
+    margin-top: 20px;
+}
+
+/* Calculator styling start */
+.calculator{
+    padding: 20px;
+    border-radius: 7px;
+    width: 300px;
+    margin: 30px auto;
+    background-color: #191b28;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+}
+#display-box{
+    background-color: #dcdbe1;
+    border: none;
+    color: black;
+    padding: 10px;
+    border-radius: 7px;
+    width: 100%;
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: right;
+    margin: 10px auto;
+    height: 80px;
+   
+}
+
+#btn{
+    background-color: #ff8c09;
+    color: white;
+}
+
+#btn:active{
+    background: rgba(255,140,9,0.7);
+}
+input[type=button]{
+    color: #fff;
+    background: #708090;
+    margin: 10px;
+    padding: 10px;
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: 1.3rem;
+    height: 100%;
+    border-radius: 50%;
+}
+input:hover[type=button]{
+    background: #A9A9A9;
+    cursor: pointer;
+}
+
+input:active[type=button] {
+    background: #C0C0C0;
+}
+/* Calculator styling end */
